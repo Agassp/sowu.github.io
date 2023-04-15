@@ -1,0 +1,443 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	
+	font-family: Comic Sans MS;
+	text-decoration: none;
+}
+
+.head{
+background: black;
+	height: 20vh;
+	text-align: center;
+}
+ .head img{
+ 	width: 150px;
+ 	margin-top: 20px;
+ 	margin-bottom: 5px;
+ 	margin-left: 200px;
+
+ }
+ .head h2{
+ 	font: bold 50px Comic Sans MS;
+ 	text-align: center;
+ 	color: gold;
+ 	font-weight: 100em;
+ 	margin-left: 20px;
+ 	margin-top: 30px;
+ }
+ .logo{
+ 	display: inline-flex;
+ 	width: 100%;
+ 	margin: auto;
+ }
+ .menu{
+ 	width: 100%;
+ 	background: white;
+	margin: auto;
+	align-items: center;
+ 	text-align: center;
+ 	 }
+ .menu ul{
+ 	display: inline-flex;
+ 	list-style: none;
+ }
+ .menu ul li{ 
+ 	margin-left: 30px;
+ 	margin-right: 60px;
+ 	font-size: 20px;
+ 	
+ }
+ .menu ul li a{
+ 	color: black;
+ }
+.menu ul li a:hover{ 
+	color: gold;
+}
+.wel-con{
+	display: inline-flex;
+	box-sizing: border-box;
+	background: black;
+	height: 80vh;
+	color: white;
+	margin-top: 20px;
+	width: 49%;
+	margin: auto;
+}
+.wel-cont{
+	width: 100%;
+	background: black;
+	display: inline-flex;
+	margin-top: 12px;
+
+}
+.wel h3{
+	padding-top: 100px;
+	font: bold 40px forte;
+	margin-left: 20px;
+}
+.sowo h1{
+	font: bold 130px Arial black;
+	margin-left: 20px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	color: gold;
+	display: inline-flex;
+}
+.sowo{
+	display: inline-flex;
+}
+.wel h2{
+	font: bold 60px Arial;
+	margin-left: 20px;
+	margin-top: 5px;
+	position: relative;
+	top: -40px;
+	letter-spacing: 0.1em;
+
+}
+.wel-con-back{
+	width: 100%;
+	background: white;
+}
+.wel-con-back img{
+	width: 100%;
+	height: 80vh;
+}
+
+
+.bubbles{
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: absolute;
+	bottom: -150px;
+}
+.bubbles img{
+	width: 15px;
+	opacity: 0.1;
+}
+@keyframes bubble{
+	0%{
+		transform: translateY(0);
+		opacity: 0;
+	}
+	30%{
+		opacity: 0.1;
+	}
+	50%{
+		opacity: 0.3;
+	}
+	70%{
+		opacity: 0.5;
+	}
+	100%{
+		opacity: 0;
+		transform: translateY(-90vh);
+	}
+}
+.bubbles img:nth-child(1){
+animation: bubble 7s linear infinite ;
+width: 45px;
+}
+.bubbles img:nth-child(2){
+animation: bubble 8.7s linear infinite ;
+width: 90px;
+}
+.bubbles img:nth-child(3){
+width: 25px;
+animation: bubble 6.3s linear infinite ;
+}
+.bubbles img:nth-child(4){
+animation: bubble 9.4s linear infinite ;
+width: 50px;
+}
+.bubbles img:nth-child(5){
+animation: bubble 5s linear infinite ;
+width: 35px;
+}
+.bubbles img:nth-child(6){
+width: 75px;
+animation: bubble 11s linear infinite ;
+}
+.bubbles img:nth-child(7){
+width: 40px;
+animation: bubble 9s linear infinite ;
+}
+.bubbles img:nth-child(8){
+width: 70px;
+animation: bubble 6s linear infinite ;
+}
+.services {
+	margin-top: 0px;
+	background: black;
+	width: 100%;
+	color: white;
+}
+.services h2{
+	text-align: center;
+	position: relative;
+	color: black;
+
+}
+.desc{
+	width: 130px;
+	height: 40px;
+	background: linear-gradient(gold, yellow,black);
+	margin: auto;
+	border-top-left-radius: 35px;
+	border-bottom-right-radius: 40px;
+	position: relative;
+	top: 43px;
+}
+.line{
+	width: 70%;
+	border-bottom: dashed 2px gold;
+	height: 5px;
+	margin: auto;
+	margin-top: 20px;
+}
+.geo{
+	width: 100%;
+}
+.geo h3{
+	margin: auto;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 10px;
+	font-weight: 2em;
+}
+.geo-serv{
+	width: 30%;
+	height: 300px;
+	display: inline-flex;
+	margin-top: 20px;
+	margin-left: 22px;
+	margin-right: 10px;
+	box-sizing: border-box;
+}
+.geo-serv img{
+	width: 100%;
+}
+.text{
+	width: 30%;
+	display: inline-flex;
+	font-size: 23px;
+	text-align: center;
+	margin: auto;
+	margin-left: 22px;
+	margin-right: 10px;
+	background: white;
+}
+.text h5{
+	text-align: center;
+	margin: auto;
+	margin-top: 0px;
+	color: black;
+}
+.geo-serv1{
+		width: 30%;
+	height: 300px;
+	display: inline-flex;
+	margin-top: 20px;
+	margin-left: 22px;
+	margin-right: 10px;
+	box-sizing: border-box;
+}
+.geo-serv1 img{
+	width: 100%;
+}
+.supply-serv{
+		width: 46%;
+	height: 350px;
+	display: inline-flex;
+	margin-top: 20px;
+	margin-left: 22px;
+	margin-right: 10px;
+	box-sizing: border-box;
+}
+.supply-serv img{
+	width: 100%;
+}
+.text1{
+	width: 46%;
+	display: inline-flex;
+	font-size: 23px;
+	text-align: center;
+	margin: auto;
+	margin-left: 22px;
+	margin-right: 10px;
+	background: white;
+}
+.text1 h5{
+	text-align: center;
+	margin: auto;
+	margin-top: 0px;
+	color: black;
+}
+.join-us{
+	margin-top: 0px;
+	background: black;
+	color: white;
+}
+.join-us h2{
+	text-align: center;
+	position: relative;
+	color: black;
+
+}
+.desc1{
+	width: 180px;
+	height: 40px;
+	background: linear-gradient(gold, yellow,black);
+	margin: auto;
+	border-top-left-radius: 35px;
+	border-bottom-right-radius: 40px;
+	position: relative;
+	top: 43px;
+}
+.form{
+	border: solid 2px gold;
+	border-radius: 15px;
+	font-size: 20px;
+	width: 30%;
+	height: 520px;
+	padding: 20px;
+	display: block;
+	box-sizing: border-box;
+	margin-left: 100px;
+	margin-top: 30px;
+}
+.form input{
+	width: 100%;
+	border-radius: 8px;
+	font-size: 20px;
+	margin: 7px 0px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+.form textarea{
+		width: 100%;
+	border-radius: 8px;
+	font-size: 20px;
+	margin: 10px 0px;
+	box-sizing: border-box;
+}
+.form button{
+	width: 100%;
+	padding: 10px;
+	color: black;
+	background: gold;
+	border-radius: 11px;
+	font-size: 20px;
+}
+.form h5{
+	text-align: center;
+	font-size: 23px;
+	margin-bottom: 20px;
+}
+.chat-box{
+	position: absolute;
+	right: 300px;
+	top: 2300px;
+	font-size: 25px;
+	margin: auto;
+}
+.chat-box h3{
+	text-align: center;
+	position: relative;
+	top: -100px;
+	color: black;
+}
+.chat{
+	width: 160px;
+	height: 160px;
+	background: gold;
+	border-radius: 100px;
+
+}
+.contact {
+		text-align: center;
+		margin: auto;
+	font: bold 30px Arial black;
+	color: darkgreen;
+	margin-bottom: 30px;
+	margin-top: 50px;
+	border-top: solid 3px darkgreen;
+	width: 90%;
+}
+.contact h4{
+	margin-top: 30px;
+}
+.contact-tab{
+	display: inline-flex;
+	width: 45%;
+	margin-left: 30px;
+	box-sizing: border-box;
+	position: relative;
+	
+}
+.contact-tab ul{
+	list-style: none;
+}
+.text-2{
+		display: inline-flex;
+		width: 45%;
+		margin: auto;
+		margin: 5px 30px;
+		margin-top: 25px;
+		font-size: 18px;
+
+}
+.text-2 h3{
+	text-align: right;
+	margin-left: 500px;
+}
+.align li{
+	text-align: right;
+	margin-left: 350px;
+}
+.Social{
+	width: 100%;
+	margin: auto;
+	align-items: center;
+	text-align: center;
+	margin-top: 30px;
+}
+.Social ul{
+	
+	display: inline-flex;
+	list-style: none;
+
+}
+.Social ul li{
+	
+	margin: 2px 20px;
+
+}
+.contact-cont{
+	background: black;
+	color: lightgrey;
+		height: 400px;
+}
+.contact-cont p{
+	text-align: center;
+	margin-top: 20px;
+}
+.contact-cont h2{
+	text-align: center;
+	position: relative;
+	color: black;
+
+}
+.desc-contact{
+	width: 160px;
+	height: 40px;
+	background: linear-gradient(gold, yellow,black);
+	margin: auto;
+	border-top-left-radius: 35px;
+	border-bottom-right-radius: 40px;
+	position: relative;
+	top: 43px;
+}
